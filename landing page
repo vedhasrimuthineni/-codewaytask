@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+  
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.feature {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="features">
+    <div class="container">
+        <h2>Features</h2>
+        <div class="feature">
+            <img src="feature1.jpg" alt="Feature 1">
+            <h3>Powerful Email Marketing</h3>
+            <p>Reach your audience effectively with our powerful email marketing tools.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Feature 2">
+            <h3>Advanced Automation</h3>
+            <p>Automate your marketing processes and save time with advanced automation features.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.jpg" alt="Feature 3">
+            <h3>Detailed Analytics</h3>
+            <p>Track and analyze the performance of your campaigns with detailed analytics.</p>
+        </div>
+        <div class="feature">
+            <img src="feature4.jpg" alt="Feature 4">
+            <h3>Customizable Templates</h3>
+            <p>Create stunning emails and landing pages with our customizable templates.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of professionals dedicated to providing high-quality services.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: vedha@gmail.com</p>
+        <p>Phone: +91 8273927368</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
